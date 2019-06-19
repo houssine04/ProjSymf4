@@ -49,6 +49,7 @@ class Article
 
     /**
      * @param mixed $title
+     * @return Article
      */
     public function setTitle($title): self
     {
@@ -67,6 +68,7 @@ class Article
 
     /**
      * @param mixed $content
+     * @return Article
      */
     public function setContent($content): self
     {
@@ -85,6 +87,7 @@ class Article
 
     /**
      * @param mixed $date
+     * @return Article
      */
     public function setDate(\DateTimeInterface $date): self
     {
